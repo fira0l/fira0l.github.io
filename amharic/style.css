@@ -1,0 +1,35 @@
+.header{
+    text-align: center;
+    color: aqua;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header span{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+body{
+    background-color: rgb(16, 16, 16);
+
+}
+
+.card{
+    padding: 20px;
+    margin: 5px;
+}
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+@media screen and (max-width: 500px){
+    .cardcontainer{
+        display: block;
+    }
+}
