@@ -1,16 +1,35 @@
-.header span {
-    font-family: "Playwrite CU",cursive;
-    font-size: 1rem;
-}
-
 .header{
-    font-size: 2.5rem;
-    font-family: cursive;
     text-align: center;
-    font-weight:bold ;
-    color: cornflowerblue;
+    color: aqua;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-body {
-    background-color: rgb(31, 30, 30);
+.header span{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+body{
+    background-color: rgb(16, 16, 16);
+
+}
+
+.card{
+    padding: 20px;
+    margin: 5px;
+}
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+@media screen and (max-width: 500px){
+    .cardcontainer{
+        display: block;
+    }
 }
